@@ -1,0 +1,47 @@
+h1 {
+    font-family: 'Beau Rivage', cursive;
+    text-align: left ;
+}
+
+td, th {
+    font-family: 'Beau Rivage', cursive;
+    text-align: left;
+    padding: 16px;
+    color: #572e18;
+}
+
+
+#ring{    
+    font-family: 'Beau Rivage', cursive;
+    border-collapse: collapse;
+    border-style:hidden;
+}
+body{
+    color:#E3B7A0;
+    background-color:#FFEDDB;
+}
+h1{
+    font-family: 'Beau Rivage', cursive;
+    text-align: center;
+    color: #572e18;
+}
+h3{
+    font-family: 'Beau Rivage', cursive;
+    color:#572e18;
+}
+.alert{
+    color:#572e18;
+    background-color:#FFEDDB;
+    font-family: 'Beau Rivage', cursive;
+    text-align: center;
+}
+div.navbarNav{
+    color: #FFEDDB
+}
+.container-fluid{
+    padding: 3% 20%;
+    background-color:#FFEDDB
+}
+.btn-outline-success{
+    background-color:#FFEDDB
+}

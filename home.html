@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home Page</title>
+
+        <script src="https://kit.fontawesome.com/1e0e88c28c.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="home_style.css" media="screen" />
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2361/2361685.png">
+        
+        
+    </head>
+    <body>  
+        
+        <div class="container-fluid">
+            <!--NAVBAR-->
+            <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #FFEDDB;">
+                <a class="navbar-brand" href="#">Erekshe  Brand</a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id:="navbarSupportedContent">
+                    
+                    
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html"> 
+                                        Homepage
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rings.html" target="_blank"> 
+                                        Rings
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bracelets.html" target="_blank"> 
+                                        Bracelets
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        
+            <!--JS Internal-->
+
+            <script>
+                document.getElementById("demo").innerHTML = "Date : " + Date(); 
+            </script>
+            
+            
+            <!--Overview-->
+            
+            
+          
+            <h1><b>Overview</b></h1>
+            
+                <div class='parent'>
+                    <div class='child'>
+                        <a href="rings.html" target="_blank">
+                        <h2>Rings</h2>
+                        </a>
+                        <a href="rings.html" target="_blank">
+                        <img id="ring_image" src="https://res.cloudinary.com/mejuri-com/image/upload/c_scale,f_auto,q_60,w_640/v1628705724/homepage/Categories%20/Homepage_Categories_Rings_Fall2021" width="200" height="200" alt="rings">
+                        </a>
+                        
+                    </div>
+                    <button type="button" class="btn btn-outline-light">
+                        <a href="https://youtu.be/DHfRfU3XUEo">
+                            <i class="fa-brands fa-apple-pay"></i>
+                            OR
+                        </a>
+                           
+                    </button>
+                        
+                    </button>
+                    <div class='child'>
+                        <a href="bracelets.html" target="_blank">
+                        <h2>Bracelets</h2>
+                        </a>
+                        <a href="bracelets.html" target="_blank">
+                        <img id="bracelet_image" src="https://res.cloudinary.com/mejuri-com/image/upload/c_scale,f_auto,q_60,w_640/v1628705724/homepage/Categories%20/Homepage_Categories_Bracelets_Fall2021" width="200" height="200" alt="rings">
+                        </a>
+                    </div>
+                </div>
+        </div>    
+        <center>
+            <div class="spinner-grow" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+
+            <section class="mission">
+                <h1 class="section-header">MISSION</h1>
+                <hr/>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-8">
+                        <p class="mission-desc">
+                            By strengthening self-confidence and self-love through
+                            eco-friendly jewelry, we make the world brighter, better and
+                            friendlier
+                        </p>
+                        </div>
+                        <div class="col-4">
+                        <img
+                            class="mission-img"
+                            src="https://cdn-academyblog.pressidium.com/wp-content/uploads/2019/11/Ethical-Jewelry_JEM_077_Enlightened_Majesty_Courage-Chest-Piece_Azita-Mireshghi.jpg"
+                            alt="eco friendly jewelry"
+                        />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
+            <div class="alert alert-light" role="alert" id="12">
+                <h4 class="alert-heading">Don't miss our new Projects!</h4>
+                <p>Everything is fine.</p>
+                <hr>
+                <p class="mb-0">Thanks for visiting us and we hope you enjoy brand new accessorities.</p>
+            </div>   
+            <!-- JS 1 -->
+            <p id="demo"></p>
+            
+    </body>
+</html>

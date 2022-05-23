@@ -1,0 +1,85 @@
+body{
+    color:#E3B7A0;
+    background-color:#FFEDDB;
+}
+h1{
+    font-family: 'Beau Rivage', cursive;
+    text-align: center;
+    color: #572e18;
+}
+h2{
+    font-family: 'Beau Rivage', cursive;
+    text-align: center;
+    color:#572e18;
+}
+.parent {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+.child {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    border-radius: 25px;
+    width: 300px;
+  }
+.ring_image::before{
+    content:url("https://res.cloudinary.com/mejuri-com/image/upload/c_scale,f_auto,q_60,w_640/v1628705724/homepage/Categories%20/Homepage_Categories_Rings_Fall2021");
+}
+a:link{
+    color: #572e18;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.rings_link:hover{
+    color: #572e18;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:link{
+    color: #572e18;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: #572e18;
+    background-color: transparent;
+    text-decoration: underline;
+}
+div.navbarNav{
+    color: #FFEDDB
+}
+.container-fluid{
+    padding: 3% 20%;
+    background-color:#FFEDDB
+}
+.btn-outline-success{
+    background-color:#FFEDDB
+}
+.alert{
+    color:#572e18;
+    background-color:#FFEDDB;
+    font-family: 'Beau Rivage', cursive;
+    text-align: center;
+}
+
+.sub-mission{
+    display: flex;
+    }
+    
+    .mission-desc{
+    flex: 30%;
+    }
+    
+    .mission-img{
+    max-width: 400px;
+    flex: 70%;
+    }
+    
+    .location,
+    .mission{
+    color:#572e18;
+    background-color:#FFEDDB ;
+    }
